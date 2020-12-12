@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+body header {
+  padding: 1rem;
+  height: 5rem;
+  border-bottom: 1px solid blue;
+}
+
+body header .header-row {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body header .header-row .left-col1 .logo h1 {
+  color: blue;
+  font-size: 40px;
+}
+
+body header .header-row .center-col1 {
+  padding-top: 4px;
+}
+
+body header .header-row .center-col1 ul a {
+  color: #1a75ff;
+  font-size: 19px;
+}
+
+body header .header-row .right-col1 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body header .header-row .right-col1 .box .search {
+  padding-top: 10px;
+}
+
+body header .header-row .right-col1 .box .search a {
+  text-decoration: none;
+  color: #1a75ff;
+  font-size: 19px;
+}
+
+body header .header-row .right-col1 .box .search a img {
+  margin-left: 4rem;
+}
+
+body header .header-row .right-col1 .box .icon img {
+  margin-right: 0.5rem;
+}
+
+body header .header-row .right-col1 .box .icon img:nth-child(2) {
+  margin-right: 0;
+}
+
+body main {
+  min-height: 900px;
+}
+
+body main .main-row {
+  margin-top: 9rem;
+}
+
+body main .main-row .left-col2 .box1 {
+  margin-left: 8rem;
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+body main .main-row .left-col2 .box1 .item1 {
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body main .main-row .left-col2 .box1 .item1 button {
+  background-color: transparent;
+  padding: 2px 15px;
+  margin-left: 1rem;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+
+body main .main-row .left-col2 .box1 .item1 button span {
+  font-size: 16px;
+  color: blue;
+}
+
+body main .main-row .left-col2 .box1 .item1 button img {
+  padding-bottom: 2px;
+  margin-left: 0.5rem;
+}
+
+body main .main-row .left-col2 .box1 .item2 {
+  margin-top: 22rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body main .main-row .left-col2 .box1 ul {
+  list-style-type: none;
+}
+
+body main .main-row .left-col2 .box1 ul li {
+  font-size: 20px;
+  color: blue;
+}
+
+body main .main-row .left-col2 .item3 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+body main .main-row .left-col2 .item3 a {
+  text-decoration: none;
+  font-size: 28px;
+  color: blue;
+  font-weight: 600;
+}
+
+body main .center-col2 img {
+  height: 750px;
+  width: 700px;
+}
+
+body main .right-col2 .box2 {
+  width: 400px;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .right-col2 .box2 h1 {
+  color: blue;
+}
+
+body main .right-col2 .box2 .price {
+  color: red;
+  font-size: 25px;
+}
+
+body main .right-col2 .box2 p {
+  word-break: break-all;
+  font-size: 22px;
+  color: #1a75ff;
+}
+
+body main .right-col2 .box2 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1rem;
+  height: 55px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  font-size: 25px;
+  padding-top: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  header .header-row .left-col1 {
+    width: 250px !important;
+    padding-top: 20px !important;
+  }
+  header .header-row .center-col1 {
+    display: none !important;
+  }
+  header .header-row .right-col1 {
+    padding: 20px 0px 0px 0px !important;
+    width: 110px !important;
+  }
+  header .header-row .right-col1 .search {
+    display: none !important;
+  }
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  main .main-row {
+    margin: 2rem 0 0 0 !important;
+  }
+  main .main-row .left-col2 {
+    padding: 0 !important;
+  }
+  main .main-row .left-col2 .box1 {
+    width: 220px !important;
+    margin-left: 0 !important;
+  }
+  main .main-row .left-col2 .box1 .item1 {
+    margin-left: 22px !important;
+  }
+  main .main-row .left-col2 .box1 .item1 .box1 .item1 img {
+    width: 40px !important;
+  }
+  main .main-row .left-col2 .box1 .item1 .box1 .item1 button {
+    padding: 1px 2px !important;
+  }
+  main .main-row .left-col2 .box1 .item1 .box1 .item1 button img {
+    width: 20px !important;
+  }
+  main .main-row .left-col2 .box1 .item2 {
+    margin-top: 2rem !important;
+    margin: 40px 0px 0px 0px !important;
+  }
+  main .main-row .left-col2 .box1 ul li {
+    font-size: 12px !important;
+  }
+  main .main-row .left-col2 .item3 {
+    margin-top: 0.5rem !important;
+    margin-left: 27px !important;
+  }
+  main .main-row .left-col2 .item3 a {
+    font-size: 22px !important;
+  }
+  main .main-row .center-col2 {
+    padding: 0 !important;
+  }
+  main .main-row .center-col2 img {
+    width: 350px !important;
+    height: 470px !important;
+  }
+  main .main-row .right-col2 {
+    padding: 0px !important;
+  }
+  main .main-row .right-col2 .box2 {
+    width: 350px !important;
+    height: 400px !important;
+  }
+  main .main-row .right-col2 .box2 .price {
+    font-size: 30px !important;
+  }
+  main .main-row .right-col2 .box2 p {
+    font-size: 16px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
